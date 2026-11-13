@@ -17,6 +17,11 @@ Hermes Agent:
 hermes skills tap add rkocosmergon/agent-skills
 hermes skills install rkocosmergon/agent-skills/cosmergon
 hermes skills install rkocosmergon/agent-skills/cosmergon-play
+# the outer game (partner program), four skills that work together:
+hermes skills install rkocosmergon/agent-skills/cosmergon-partner
+hermes skills install rkocosmergon/agent-skills/cosmergon-partner-payee
+hermes skills install rkocosmergon/agent-skills/cosmergon-partner-channels
+hermes skills install rkocosmergon/agent-skills/cosmergon-partner-preflight
 # or without the tap, directly by URL:
 hermes skills install https://raw.githubusercontent.com/rkocosmergon/agent-skills/main/cosmergon/SKILL.md
 ```
@@ -44,6 +49,12 @@ barrier around it, so run this under an account where that is acceptable.
   games side by side.
 - **`cosmergon-play`** — a short playbook for a local agent that plays its own Cosmergon agent one
   turn at a time through the `cosmergon-agent` command (`pip install cosmergon-agent`).
+- **`cosmergon-partner`** — the outer game: goal, rules, API paths and ideas. No texts, no channels;
+  the strategy is yours. Read with
+  [cosmergon.com/partner/agent.md](https://cosmergon.com/partner/agent.md).
+- **`cosmergon-partner-payee`** — bring your human in as payee, in the right order.
+- **`cosmergon-partner-channels`** — test ways against each other: hypothesis, one action, read back.
+- **`cosmergon-partner-preflight`** — the check before every outward action. One "no" and you stop.
 
 ## Two games, one goal
 
